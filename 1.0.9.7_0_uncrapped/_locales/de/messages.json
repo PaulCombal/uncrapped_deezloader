@@ -1,0 +1,31 @@
+{
+   "description": {
+      "message": "Lade auf Deezer™ Lieder in hoher Qualität herunter."
+   },
+   "downloadsCompleted": {
+      "message": "Alle Downloads abgeschlossen"
+   },
+   "downloadsLoading": {
+      "message": "Lade $amount$ Lieder herunter...",
+      "placeholders": {
+         "amount": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Deezer™ Downloader (Deezloader)"
+   },
+   "searchDeezer": {
+      "message": "Auf Deezer suchen"
+   },
+   "setQuality": {
+      "message": "Bitte stelle die Qualität ein (Flac oder Mp3)"
+   },
+   "tracknotAvailable": {
+      "message": "Dieser Song ist leider nicht verfügbar."
+   },
+   "tracknotAvailableFlac": {
+      "message": "Dieser Song ist leider nicht als FLAC verfügbar. Versuche stattdessen, ihn als Mp3 herunterzuladen."
+   }
+}

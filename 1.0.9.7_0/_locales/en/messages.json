@@ -1,0 +1,31 @@
+{
+   "description": {
+      "message": "Download Songs in high quality (MP3 / FLAC) from Deezer™."
+   },
+   "downloadsCompleted": {
+      "message": "Downloads completed"
+   },
+   "downloadsLoading": {
+      "message": "Downloading $amount$ Track/s...",
+      "placeholders": {
+         "amount": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Deezer™ Downloader (Deezloader)"
+   },
+   "searchDeezer": {
+      "message": "Search on Deezer"
+   },
+   "setQuality": {
+      "message": "Please set the quality first! (Mp3, Flac)"
+   },
+   "tracknotAvailable": {
+      "message": "Track not available."
+   },
+   "tracknotAvailableFlac": {
+      "message": "No Flac Stream available for this song. Try Mp3 instead."
+   }
+}

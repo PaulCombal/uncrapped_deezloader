@@ -1,0 +1,84 @@
+html, body {
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  #app { 
+        background-color: rgb(53, 54, 58);
+  }
+}
+
+.main-box {
+  width: 100%;
+  max-width: 561px;
+}
+
+form {
+        width: 100%;
+    background-color: transparent;
+    font: normal 1rem "Segoe UI",Arial,Helvetica,Sans-Serif;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    align-items: center;
+    justify-content: flex-end;
+    display: inline-flex;
+    border-radius: 100px;
+    height: 100%;
+    position: relative;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+#search__ {
+    background-color: transparent;
+    padding: 13px 10px;
+    padding-left: 20px;
+    padding-right: 59px;
+    flex: 1;
+    border: 0;
+    outline: none;
+    -webkit-appearance: none;
+    font-size: 1.125rem;
+    font: inherit;
+}
+
+.search_btn {
+    background-size: 21px 21px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+    outline: none;
+    padding: 0;
+    pointer-events: auto;
+    position: absolute;
+    right: 16px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+}
+
+svg {
+  width: 25px;
+  position: absolute;
+}

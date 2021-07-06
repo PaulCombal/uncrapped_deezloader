@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "files/content_scripts/jquery-3.4.1.min.js", "files/background.js" ]
+   },
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "exclude_matches": [ "*://www.deezer.com/signout", "*://www.deezer.com/*/login", "*://www.deezer.com/*/register", "*://www.deezer.com/*/download/*", "*://www.deezer.com/legal/*" ],
+      "js": [ "files/content_scripts/flac.js", "files/content_scripts/md5.min.js", "files/content_scripts/aes-ecb.js", "files/content_scripts/jquery-3.4.1.min.js", "files/content_scripts/blowfish.js", "files/content_scripts/id3Writer.js", "files/content_scripts/elements.js", "files/content_scripts/script.js" ],
+      "matches": [ "http://www.deezer.com/*", "https://www.deezer.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "files/images/dzldr_128.png",
+      "16": "files/images/dzldr_16.png",
+      "48": "files/images/dzldr_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhmUZ07VWL7LGsvscZn+cIgAzakNeN4b/xDP3FdTWtu8lm1iFi3bTYiR3ZsXavFYLXA6FalU5x8IjHllh38R8zN8WHZIr6cc60LxxiGUvge9KPuksNvVdPmrUn5xebb9qFlnS1NwHkdqVNPHZxhSFwWq+xKEU8oJr5KYmYcrZSlSvhyUjdF2rFiq4sFaY2ObTNY/TRjmu82eyWeWdwTlwR3ZC7eIpJI8NMlomAfgdYHoAyv3pddoGC6Kd4rnYvcHw6K4mUbaVK+6X1iQagcryKxwlLpJFr/soH3Y3X3QTzi1MaeWSFtIqHfYF+3igFKEr1Kl2vvv8ZEMEDv6M/TjAJQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "storage", "downloads", "webRequest", "webRequestBlocking", "\u003Call_urls>", "contextMenus", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.9.7"
+}
