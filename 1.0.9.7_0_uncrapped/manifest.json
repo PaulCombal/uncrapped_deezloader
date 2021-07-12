@@ -13,7 +13,6 @@
       "16": "files/images/dzldr_16.png",
       "48": "files/images/dzldr_48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhmUZ07VWL7LGsvscZn+cIgAzakNeN4b/xDP3FdTWtu8lm1iFi3bTYiR3ZsXavFYLXA6FalU5x8IjHllh38R8zN8WHZIr6cc60LxxiGUvge9KPuksNvVdPmrUn5xebb9qFlnS1NwHkdqVNPHZxhSFwWq+xKEU8oJr5KYmYcrZSlSvhyUjdF2rFiq4sFaY2ObTNY/TRjmu82eyWeWdwTlwR3ZC7eIpJI8NMlomAfgdYHoAyv3pddoGC6Kd4rnYvcHw6K4mUbaVK+6X1iQagcryKxwlLpJFr/soH3Y3X3QTzi1MaeWSFtIqHfYF+3igFKEr1Kl2vvv8ZEMEDv6M/TjAJQIDAQAB",
    "manifest_version": 2,
    "name": "__MSG_name__",
    "permissions": [ "storage", "downloads", "webRequest", "webRequestBlocking", "\u003Call_urls>", "contextMenus", "tabs" ],
